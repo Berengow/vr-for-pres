@@ -1,0 +1,28 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+/*блок с видео отображаемый после нажатия infopost */
+#desc-container {
+  height: 40%;
+  width: 35%;
+    margin-bottom: 700px;
+    background: #fff;
+    color: #000;
+    border-radius: 3px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  #desc-container > iframe {/*настройка отображения ведео файла */
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
